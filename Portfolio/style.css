@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+}
+
+.nav {
+    height: 50px;
+    ;
+    background-color: maroon;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    width: 20%;
+    padding-left: 5px;
+    color: blanchedalmond;
+}
+
+.search input {
+    border: #555;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.head {
+    font-size: 50px;
+    font-style: italic;
+}
+
+.link {
+    width: 40%;
+    padding-right: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link a {
+    color: antiquewhite;
+    font-size: medium;
+    text-decoration: none;
+}
+
+.img {
+    height: 500px;
+    background-image: url("https://i.gifer.com/9lZV.gif");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head h1 {
+    color: white;
+}
+
+.about {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: maroon;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px gray;
+}
+
+.about-image img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.about-text {
+    max-width: 700px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.about h1 {
+    margin-top: 5px;
+}
+
+.about p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    padding: 0px 10px;
+}
+
+.a {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.x {
+    background-color: rgb(236, 139, 14);
+    height: 300px;
+    width: 28%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.x img {
+    height: 70px;
+    width: 30%;
+}
+
+.x h2 {
+    color: white;
+    margin-top: 10px;
+}
+
+.x p {
+    color: white;
+    padding: 5px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    margin-top: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.footer .social-links {
+    margin-top: 10px;
+}
+
+.footer .social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+}
+
+.footer .social-links a:hover {
+    color: #0073b1;/
+}
+
+.footer-button {
+    margin-top: 15px;
+}
+
+.footer-button button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: maroon;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-button button:hover {
+    background-color: #005f91;
+}
+
+.join-club-container {
+    background: linear-gradient(to right, maroon, #800000); /* maroon gradient */
+    padding: 60px 20px;
+    margin: 50px auto;
+}
+
+
+.join-club {
+    background-color: white;
+    max-width: 600px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.join-club h2 {
+    text-align: center;
+    color: maroon;
+    margin-bottom: 20px;
+}
+
+.join-club input,
+.join-club select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+.join-club button {
+    width: 100%;
+    background-color: maroon;
+    color: white;
+    font-size: 16px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.join-club button:hover {
+    background-color: #a50000;
+}
+
+.error-text {
+    color: red;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+}

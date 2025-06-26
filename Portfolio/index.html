@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav">
+        <div class="title">
+            <h1>Rahman Riyad</h1>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="search" size="50">
+        </div>
+        <div class="link">
+            <a href="#">Home</a>
+            <a href="#">Education & Experiance</a>
+            <a href="#">Activities</a>
+            <a href="#">Skill and Strength</a>
+            <a href="#">Achievement</a>
+        </div>
+    </div>
+    <div class="img">
+        <div class="head">
+            <h1>Naiem Ur Rahman Riyad</h1>
+        </div>
+    </div>
+    <div class="about">
+        <div class="about-image">
+             <img src="https://drive.google.com/uc?export=view&id=11ZsW7ffDAqwqSE-8VQWrA5dJJ1a9yWyA" alt="Image from Google Drive">
+        </div>
+        <div class="about-text">
+            <h1>About Me</h1>
+            <p>
+                Hello there, I'm Naiem Ur Rahman Riyad. I am a passionate student pursuing Computer Science Engineering
+                at Daffodil International University with a relentless curiosity for technology's boundless
+                possibilities. Embarking on this journey, I've found my niche in the intricate world of coding,
+                problem-solving, and innovation. Driven by an insatiable hunger for knowledge, I immerse myself in the
+                dynamic realm of computer science, exploring its myriad domains, from software development to artificial
+                intelligence. Throughout my academic tenure, I've honed my skills in programming languages like Python,
+                Java, C, and C++, mastering algorithms and data structures to tackle complex challenges head-on. But
+                it's not just about the code; it's about the transformative impact it can have. I thrive on leveraging
+                technology to create meaningful solutions that enhance efficiency, streamline processes, and empower
+                communities.
+            </p>
+        </div>
+    </div>
+    <div class="join-club-container">
+        <div class="join-club">
+            <h2>Join My Tech Club</h2>
+            <form id="clubForm" onsubmit="return validateClubForm()">
+
+                <label>Full Name:</label><br>
+                <input type="text" id="fullname"><br>
+                <small id="nameError" class="error-text"></small><br>
+
+                <label>University Email:</label><br>
+                <input type="text" id="email"><br>
+                <small id="emailError" class="error-text"></small><br>
+
+                <label>Student ID:</label><br>
+                <input type="text" id="studentId"><br>
+                <small id="studentIdError" class="error-text"></small><br>
+
+                <label>Department:</label><br>
+                <select id="department">
+                    <option value="">--Select Department--</option>
+                    <option value="CSE">CSE</option>
+                    <option value="SWE">SWE</option>
+                    <option value="EEE">EEE</option>
+                </select><br>
+                <small id="departmentError" class="error-text"></small><br>
+
+                <label>Password:</label><br>
+                <input type="password" id="password"><br>
+                <small id="passwordError" class="error-text"></small><br>
+
+                <button type="submit">Join Now</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="footer">
+        <p>ⓒ All rights are reserved</p>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank">Facebook</a> |
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a> | <a href="https://instagram.com"
+                target="_blank">Instagram</a>
+        </div>
+        <div class="footer-button">
+            <button onclick="window.location.href='mailto:youremail@example.com'">Contact Me</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
